@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #000000, #5b35cc);
+    position: relative;
+}
+
+.estrelas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(1.5px 1px at 22% 14%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 90% 5%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 96% 11%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 80% 3%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 84% 9%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 70% 18%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 73% 8%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 60% 11%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 17% 7%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 5% 9%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 12% 10%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 42% 2%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 38% 10%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 50% 6%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 48% 16%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 30% 15%, #FFF, transparent),
+        radial-gradient(1.5px 1.5px at 30% 4%, #FFF, transparent)
+      
+    ;
+}
+
+.container{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border:1px solid rgba(255, 255, 255, 0.2) ;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    border-radius: 16px;
+    padding: 35px;
+}
+
+.container h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.input-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background-color:rgba(255, 255, 255, 0.15) ;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+.input-box input::placeholder{
+    color: rgb(255,255,255, 0.6);
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 25%;
+}
+
+.Lembrar-ajudar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.Lembrar-ajudar label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Lembrar-ajudar label input{
+    accent-color: rgb(127, 12, 215);
+}
+
+.Lembrar-ajudar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Lembrar-ajudar a:hover {
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    background-color:rgb(255,255,255, 0.5) ;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #2e00b9;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3;
+}
+
+button:hover{
+    background-color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.registro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.registro a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
